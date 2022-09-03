@@ -21,7 +21,7 @@ const ItemForm = () => {
       onChange={(e)=> setTitle(e.target.value)
       } required
       />
-      <input type='submit' value="Add Item"/>
+      <input type='submit' value="Agregar artículo"/>
     </form>
    );
 }
