@@ -7,7 +7,7 @@ const Navbar = () => {
   return ( 
     <div className="navbar">
       <h1>Lista del super</h1>
-      <p>{items.lenght >= 1 ? `todavía te quedan ${items.lenght} artículos que comprar`: 'No tenés ningún artículo en tu lista'}</p>
+      <p>{items.length >= 1 ? `todavía te quedan ${items.length} artículos que comprar`: 'No tenés ningún artículo en tu lista'}</p>
     </div>
    );
 }
